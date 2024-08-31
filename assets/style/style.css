@@ -1,0 +1,28 @@
+.main__word {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 40px;
+    align-items: center;
+    color: #165a17;
+}
+.main__word_title {}
+.main__word_btn {
+    max-width: 200px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 9px;
+    border: none;
+    background-color: #165a17;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor:pointer;
+}
+.main__word_btn:hover {
+    transform: scale(1.02);
+}
+.main__word_text {
+    color: #5a164a;
+}
